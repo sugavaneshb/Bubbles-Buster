@@ -1,0 +1,123 @@
+.header{
+  margin: 0 10px 10px 0;
+  width: 95%;
+  height: 80px;
+  position: absolute;  
+  background-color: #eeeeee;
+  border: 1px dotted black;
+  padding-top: 0;
+  top: -5px;
+  border-radius: 15px
+}
+
+.char_bubble{
+    overflow: hidden;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: red;
+    text-align: center;
+    padding: 0;
+    font-family: garamond;
+}
+.header h1{
+  text-align: center;
+  color: green;
+  padding-top: 0;
+  margin: 0.5em;
+}
+
+h3{
+  display: inline;
+  font-family: cursive;
+}
+
+
+#game{
+  position: relative;
+  float: left;
+  width: 70%;
+  height: 50em;
+  margin: 90px 0px 10px 0;
+  border-radius: 15px;
+  background-color: #dddddd
+}
+
+#score_box{
+  position: relative;
+  float: left;
+  margin: 90px 0 10px 10px;
+  background-color: #cccccc;
+  width: 27%;
+  height: 230px;
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#score_box h3{
+  text-align: center;
+}
+
+#game_control{
+  position: relative;
+  float: left;
+  margin: 10px 0 10px 10px;
+  background-color: #cccccc;
+  width: 27%;
+  height: 40px;
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#credits{
+  position: relative;
+  float: left;
+  margin: 10px 0 10px 10px;
+  background-color: #cccccc;
+  width: 27%;
+  //height: 40px;
+  border-radius: 15px;
+  padding: 10px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  background: -webkit-radial-gradient( 
+    hsl(30,80%,80%), 
+    hsl(210,50%,70%) ) 
+    no-repeat center;
+  background: radial-gradient( 
+    hsl(30,80%,80%), 
+    hsl(210,50%,70%) ) 
+    no-repeat center;
+}
+
+#score{
+  width: 80%;
+  height: 70px;
+  margin: auto;
+  background-color: #efefef;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 60px;
+}
+
+
+.footer{
+  clear: both;
+  width: 95%;
+  height: 90px;
+  background-color: #eeeeee;
+  border: 1px dotted black;
+  border-radius:  15px;
+  padding-left: 15px;
+}
+
+
