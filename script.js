@@ -1,6 +1,4 @@
 var score = 0;
-var left_div = "<div class='char_bubble'>";
-var right_div = "</div>";
 var score_ui = document.getElementById("value");
 var $left;
 var timedif = 2000;
@@ -48,7 +46,7 @@ function stopGame(){
     miss = 0;
     updateScore();
 
-    var _continue = prompt("Do you want to continue playing?", "Press cancel otherwise");
+    var _continue = confirm("Do you want to continue playing? Press cancel otherwise");
     if(_continue)
         startGame();
     else
@@ -74,7 +72,8 @@ function bubbles(){
 
     
 
-    $(".char_bubble").click(function(){
+    $(letter).click(function(){
+        console.log(bubble_count + "hrere");
         $(this).remove();
         score++;
         updateScore();        
