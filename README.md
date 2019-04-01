@@ -1,7 +1,6 @@
 This is my first game.. 
 
-Play it here..
-http://j.mp/11tpR5E
+Play it here: http://sugavaneshb.in/Bubbles-Buster/
 
 Credits:
 1) jQuery
